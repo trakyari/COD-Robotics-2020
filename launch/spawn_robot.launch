@@ -53,7 +53,7 @@
           pkg ="controller_manager" 
           type="spawner" 
           ns="/simple_model" 
-          args="Rev1_position_controller Rev2_position_controller Rev3_position_controller Rev4_position_controller Rev5_position_controller joint_state_controller"/>
+          args="Rev5_position_controller joint_state_controller diff_drive_controller"/>
 
     <!-- converts joint states to TF transforms -->
     <node name="robot_state_publisher" 
